@@ -61,7 +61,7 @@ export default function ProfileForm({ onSubmit, prefill = {} }) {
         'मराठी': 'mr'
       };
 
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://35.175.136.243/api/v1';
       const response = await fetch(`${apiUrl}/schemes/search`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
