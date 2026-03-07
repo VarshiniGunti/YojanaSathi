@@ -9,6 +9,7 @@
 
 **Hackathon:** AI for Bharat by AWS  
 **Team:** SoloForge AI
+**Challanges** [Student Track] AI for Communities , Access & Public Impact
 
 ---
 
