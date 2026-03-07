@@ -176,6 +176,17 @@ data/
 *.sqlite
 *.sqlite3
 
+# PM2 files
+.pm2/
+ecosystem.config.js.bak
+
+# Production logs
+backend/logs/
+frontend/logs/
+
+# Deployment files
+deploy-backend.sh.bak
+
 # Backup files
 *.bak
 *.backup
