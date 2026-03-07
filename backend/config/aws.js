@@ -43,6 +43,6 @@ export const AWS_CONFIG = {
   region: AWS_REGION,
   s3Bucket: process.env.S3_BUCKET_NAME || 'yojanasathi-kb-dev',
   dynamoTable: process.env.DYNAMODB_TABLE_NAME || 'yojanasathi-analytics',
-  bedrockModelId: process.env.BEDROCK_MODEL_ID || 'anthropic.claude-sonnet-4-v1',
+  bedrockModelId: process.env.BEDROCK_MODEL_ID || 'anthropic.claude-3-sonnet-20240229-v1:0',
   knowledgeBaseId: process.env.BEDROCK_KNOWLEDGE_BASE_ID || '',
 };

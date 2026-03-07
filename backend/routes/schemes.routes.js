@@ -9,7 +9,7 @@ import { retrieveRelevantSchemes, rankSchemes } from '../services/rag.service.js
 import { invokeBedrockModel, localEligibilityCheck } from '../services/bedrock.service.js';
 import { translateSchemeResults } from '../services/translate.service.js';
 import { logQuery } from '../services/analytics.service.js';
-import { readFileSync } from 'fs';
+import { readFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -24,7 +24,7 @@ const router = express.Router();
  */
 router.post('/search', validate(searchRequestSchema), async (req, res, next) => {
   try {
-    const { userProfile, query, language } = req.validatedBody;
+    const { userProfile, language } = req.validatedBody;
 
     logger.info('Scheme search request', {
       occupation: userProfile.occupation,
@@ -189,30 +189,39 @@ router.get('/:id', async (req, res, next) => {
 
     // Load schemes from local file
     const schemesPath = join(__dirname, '../../schemes/schemes.json');
-    const schemesData = readFileSync(schemesPath, 'utf-8');
-    const schemes = JSON.parse(schemesData);
+    
+    try {
+      const schemesData = await readFile(schemesPath, 'utf-8');
+      const schemes = JSON.parse(schemesData);
 
-    const scheme = schemes.find(s => s.id === id);
+      const scheme = schemes.find(s => s.id === id);
 
-    if (!scheme) {
-      return res.status(404).json({
-        error: 'Scheme Not Found',
-        message: `Scheme with ID '${id}' not found`,
+      if (!scheme) {
+        return res.status(404).json({
+          error: 'Scheme Not Found',
+          message: `Scheme with ID '${id}' not found`,
+        });
+      }
+
+      res.json({
+        id: scheme.id,
+        name: scheme.name,
+        ministry: scheme.ministry,
+        description: scheme.description,
+        eligibility: scheme.eligibility,
+        benefits: scheme.benefits,
+        documents: scheme.documents,
+        applicationProcess: scheme.apply_steps,
+        officialLink: scheme.apply_link,
+        tags: scheme.tags,
+      });
+    } catch (fileError) {
+      logger.error('Failed to read schemes file', { error: fileError.message });
+      return res.status(500).json({
+        error: 'Service Unavailable',
+        message: 'Scheme data unavailable',
       });
     }
-
-    res.json({
-      id: scheme.id,
-      name: scheme.name,
-      ministry: scheme.ministry,
-      description: scheme.description,
-      eligibility: scheme.eligibility,
-      benefits: scheme.benefits,
-      documents: scheme.documents,
-      applicationProcess: scheme.apply_steps,
-      officialLink: scheme.apply_link,
-      tags: scheme.tags,
-    });
 
   } catch (error) {
     next(error);

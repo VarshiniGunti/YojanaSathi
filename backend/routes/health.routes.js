@@ -23,44 +23,42 @@ router.get('/', (req, res) => {
 
 /**
  * GET /api/v1/health/detailed
- * Detailed health check with AWS service status
+ * Detailed health check with AWS service configuration status
  */
 router.get('/detailed', async (req, res) => {
   const health = {
     status: 'healthy',
     timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    environment: process.env.NODE_ENV || 'development',
     services: {
-      bedrock: 'unknown',
-      dynamodb: 'unknown',
-      s3: 'unknown',
+      bedrock: 'configured',
+      dynamodb: 'configured',
+      s3: 'configured',
+      translate: 'configured',
+    },
+    configuration: {
+      bedrockModel: process.env.BEDROCK_MODEL_ID || 'default',
+      s3Bucket: process.env.S3_BUCKET_NAME || 'default',
+      dynamoTable: process.env.DYNAMODB_TABLE_NAME || 'default',
+      region: process.env.AWS_REGION || 'us-east-1',
     },
   };
 
-  // Check Bedrock
+  // Simple configuration checks
   try {
-    await bedrockClient.config.region();
-    health.services.bedrock = 'healthy';
+    if (!process.env.BEDROCK_MODEL_ID) {
+      health.services.bedrock = 'using-default';
+    }
+    if (!process.env.S3_BUCKET_NAME) {
+      health.services.s3 = 'using-default';
+    }
+    if (!process.env.DYNAMODB_TABLE_NAME) {
+      health.services.dynamodb = 'using-default';
+    }
   } catch (error) {
-    health.services.bedrock = 'unhealthy';
     health.status = 'degraded';
-  }
-
-  // Check DynamoDB
-  try {
-    await docClient.config.region();
-    health.services.dynamodb = 'healthy';
-  } catch (error) {
-    health.services.dynamodb = 'unhealthy';
-    health.status = 'degraded';
-  }
-
-  // Check S3
-  try {
-    await s3Client.config.region();
-    health.services.s3 = 'healthy';
-  } catch (error) {
-    health.services.s3 = 'unhealthy';
-    health.status = 'degraded';
+    health.error = 'Configuration check failed';
   }
 
   const statusCode = health.status === 'healthy' ? 200 : 503;

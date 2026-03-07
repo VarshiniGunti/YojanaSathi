@@ -137,7 +137,7 @@ function Badge({status}){
 function ProfilePage({onSubmit, prefill={}}){
   const [f,setF] = useState({age:prefill.age||"",income:prefill.income||"",
     category:prefill.category||"",profession:prefill.profession||"",
-    state:prefill.state||""});
+    state:prefill.state||"",gender:prefill.gender||""});
   const [err,setErr] = useState({});
   const [loading,setLoading] = useState(false);
   const set=(k,v)=>setF(p=>({...p,[k]:v}));
@@ -149,6 +149,7 @@ function ProfilePage({onSubmit, prefill={}}){
     if(!f.category)  e.category="Please select a category";
     if(!f.profession)e.profession="Please select your profession";
     if(!f.state)     e.state="Please select your state";
+    if(!f.gender)    e.gender="Please select your gender";
     setErr(e);
     if(Object.keys(e).length) return;
     setLoading(true);
@@ -165,7 +166,7 @@ function ProfilePage({onSubmit, prefill={}}){
             category: f.category,
             occupation: f.profession,
             state: f.state,
-            gender: 'male'
+            gender: f.gender
           },
           query: '',
           language: 'en'
@@ -295,6 +296,18 @@ function ProfilePage({onSubmit, prefill={}}){
             {STATES.map(s=><option key={s} value={s}>{s}</option>)}
           </select>
           {err.state&&<div className="err">{err.state}</div>}
+        </div>
+
+        <div className="field fu4">
+          <div className="label">Gender <span className="req">*</span></div>
+          <div className="chip-wrap">
+            {["Male", "Female", "Other"].map(g=>(
+              <button key={g} className={`chip ${f.gender===g.toLowerCase()?"on":""}`} onClick={()=>set("gender",g.toLowerCase())}>
+                {g}
+              </button>
+            ))}
+          </div>
+          {err.gender&&<div className="err" style={{marginTop:6}}>{err.gender}</div>}
         </div>
       </div>
 

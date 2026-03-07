@@ -126,16 +126,24 @@ export async function invokeBedrockModel(userProfile, retrievedSchemes) {
       errorCode: error.code,
       statusCode: error.$metadata?.httpStatusCode,
       requestId: error.$metadata?.requestId,
-      stack: error.stack
     });
 
     // Fallback to OpenAI if available
     if (openai) {
       logger.info('Falling back to OpenAI');
-      return await invokeOpenAIFallback(userProfile, retrievedSchemes);
+      try {
+        return await invokeOpenAIFallback(userProfile, retrievedSchemes);
+      } catch (openaiError) {
+        logger.error('OpenAI fallback also failed', { error: openaiError.message });
+        console.log('Bedrock unavailable, using fallback eligibility logic');
+        return localEligibilityCheck(userProfile, retrievedSchemes);
+      }
     }
 
-    throw error;
+    // Final fallback to local eligibility logic
+    console.log('Bedrock unavailable, using fallback eligibility logic');
+    logger.warn('Using local eligibility check as final fallback');
+    return localEligibilityCheck(userProfile, retrievedSchemes);
   }
 }
 

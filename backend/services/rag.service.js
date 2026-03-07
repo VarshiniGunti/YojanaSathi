@@ -5,7 +5,7 @@
 
 import { ChromaClient } from 'chromadb';
 import { logger } from '../config/logger.js';
-import { readFileSync, existsSync } from 'fs';
+import { readFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -50,8 +50,15 @@ export async function initializeChroma() {
  */
 export async function retrieveRelevantSchemes(userProfile, topK = 5) {
   try {
+    // Try ChromaDB first if available
     if (!collection) {
-      await initializeChroma();
+      try {
+        await initializeChroma();
+      } catch (error) {
+        logger.warn('ChromaDB unavailable, using local scheme dataset', { error: error.message });
+        console.log('ChromaDB unavailable, using local scheme dataset');
+        return loadLocalSchemes();
+      }
     }
 
     // Build query text from user profile
@@ -73,6 +80,7 @@ export async function retrieveRelevantSchemes(userProfile, topK = 5) {
 
     if (!results.documents || results.documents[0].length === 0) {
       logger.warn('No documents found in ChromaDB, falling back to local schemes');
+      console.log('ChromaDB unavailable, using local scheme dataset');
       return loadLocalSchemes();
     }
 
@@ -92,6 +100,7 @@ export async function retrieveRelevantSchemes(userProfile, topK = 5) {
 
   } catch (error) {
     logger.error('RAG retrieval failed', { error: error.message });
+    console.log('ChromaDB unavailable, using local scheme dataset');
     // Fallback to local schemes
     return loadLocalSchemes();
   }
@@ -100,21 +109,24 @@ export async function retrieveRelevantSchemes(userProfile, topK = 5) {
 /**
  * Load schemes from local JSON file (fallback)
  */
-function loadLocalSchemes() {
+async function loadLocalSchemes() {
   try {
     const schemesPath = join(__dirname, '../../schemes/schemes.json');
 
-    if (!existsSync(schemesPath)) {
-      logger.error('Local schemes file not found', { path: schemesPath });
+    try {
+      const schemesData = await readFile(schemesPath, 'utf-8');
+      const schemes = JSON.parse(schemesData);
+
+      logger.info('Loaded schemes from local file', { count: schemes.length });
+
+      return schemes;
+    } catch (fileError) {
+      logger.error('Local schemes file not found or corrupted', { 
+        path: schemesPath, 
+        error: fileError.message 
+      });
       return [];
     }
-
-    const schemesData = readFileSync(schemesPath, 'utf-8');
-    const schemes = JSON.parse(schemesData);
-
-    logger.info('Loaded schemes from local file', { count: schemes.length });
-
-    return schemes;
 
   } catch (error) {
     logger.error('Failed to load local schemes', { error: error.message });
