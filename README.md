@@ -172,8 +172,6 @@ Amazon Bedrock | AI reasoning |
 AWS Translate | Multilingual translation |
 Amazon S3 | Scheme document storage |
 DynamoDB | Analytics logging |
-Route53 | Domain management |
-AWS Certificate Manager | HTTPS SSL certificates |
 
 ---
 **Architecture**
@@ -187,10 +185,6 @@ YojanaSathi uses a cloud-native AWS architecture combining Amplify for frontend 
                          │        Users / Browser      │
                          │   Mobile / Desktop Clients  │
                          └──────────────┬──────────────┘
-                                        │
-                                        ▼
-                           Custom Domain (Route53)
-                           https://yojanasathi.tech
                                         │
                                         ▼
                          ┌─────────────────────────────┐
@@ -269,8 +263,6 @@ yojanasathi
 Hosted on **AWS Amplify**
 
 - Automatic CI/CD from GitHub
-- Custom domain via Route53
-- HTTPS via AWS Certificate Manager
 
 ---
 
