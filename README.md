@@ -112,41 +112,6 @@ This scheme requires SC/ST category while your profile shows OBC.
 
 ---
 
-# AWS Cloud Architecture
-
-```
-User Browser
-      │
-      ▼
-Custom Domain
-yojanasathi.tech
-      │
-      ▼
-AWS Amplify
-(React Frontend Hosting)
-      │
-      ▼
-API Gateway
-(Secure HTTPS API Layer)
-      │
-      ▼
-EC2 Instance
-(Node.js Express Backend)
-      │
-      ▼
-Nginx Reverse Proxy
-      │
-      ▼
-AI & Data Services
-│
-├── Amazon Bedrock (Claude 3 Sonnet)
-├── AWS Translate
-├── Amazon S3 (scheme documents)
-└── DynamoDB (analytics)
-```
-
----
-
 # Data Flow
 
 1. User submits profile from frontend
@@ -210,6 +175,61 @@ DynamoDB | Analytics logging |
 Route53 | Domain management |
 AWS Certificate Manager | HTTPS SSL certificates |
 
+---
+**Architecture**
+
+YojanaSathi uses a cloud-native AWS architecture combining Amplify for frontend hosting, API Gateway for secure API access, EC2 for backend compute, and Amazon Bedrock for AI-powered eligibility reasoning.
+
+# AWS Cloud Architecture
+
+```text
+                         ┌─────────────────────────────┐
+                         │        Users / Browser      │
+                         │   Mobile / Desktop Clients  │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                           Custom Domain (Route53)
+                           https://yojanasathi.tech
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │        AWS Amplify          │
+                         │  React Frontend Hosting     │
+                         │  CI/CD from GitHub          │
+                         └──────────────┬──────────────┘
+                                        │ HTTPS
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │        API Gateway          │
+                         │  Secure API Management      │
+                         │  CORS + Routing             │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │         AWS EC2             │
+                         │   Node.js Express Backend   │
+                         │   Managed with PM2          │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │        Nginx Proxy          │
+                         │  Routes /api → Node server  │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+               ┌──────────────────────────────────────────────┐
+               │              AI & Data Layer                  │
+               │                                              │
+               │  Amazon Bedrock → Claude 3 Sonnet            │
+               │  AWS Translate → Multilingual responses      │
+               │  Amazon S3 → Scheme knowledge base           │
+               │  DynamoDB → Privacy-safe analytics           │
+               │  ChromaDB → Vector retrieval (RAG)           │
+               └──────────────────────────────────────────────┘
+```
 ---
 
 # File Structure
