@@ -1,0 +1,32 @@
+{
+  "name": "yojanasathi-backend",
+  "version": "1.0.0",
+  "description": "AI-powered government scheme finder backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "convert-schemes": "node scripts/convert-to-markdown.js",
+    "ingest": "node scripts/ingest-schemes.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.515.0",
+    "@aws-sdk/client-dynamodb": "^3.515.0",
+    "@aws-sdk/client-s3": "^3.515.0",
+    "@aws-sdk/client-transcribe": "^3.1003.0",
+    "@aws-sdk/client-translate": "^3.515.0",
+    "@aws-sdk/lib-dynamodb": "^3.515.0",
+    "chromadb": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.0",
+    "morgan": "^1.10.0",
+    "openai": "^4.28.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  }
+}
