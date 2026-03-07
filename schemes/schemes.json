@@ -1,0 +1,1846 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN Samman Nidhi",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Direct income support of Rs 6000 per year for small and marginal farmer families with cultivable land. Money is sent directly to bank account in 3 installments of Rs 2000 each.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must own cultivable land", "Must not be an income tax payer", "Must not be institutional landholder"]
+    },
+    "benefits": [
+      "Rs 6,000 per year directly to bank account",
+      "Paid in 3 installments of Rs 2,000 every 4 months",
+      "No repayment required"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership Papers (Khasra/Khatauni)",
+      "Bank Account Passbook",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "apply_steps": [
+      "Visit pmkisan.gov.in on your phone or computer",
+      "Click on New Farmer Registration",
+      "Enter your Aadhaar number and select your state",
+      "Fill in your land and bank details",
+      "Submit the form and note your registration number",
+      "Money arrives in 2 to 4 weeks after verification"
+    ],
+    "apply_link": "https://pmkisan.gov.in",
+    "tags": ["farmer", "agriculture", "income support", "direct benefit"]
+  },
+  {
+    "id": "ayushman-bharat",
+    "name": "Ayushman Bharat PM-JAY",
+    "ministry": "Ministry of Health & Family Welfare",
+    "description": "Worlds largest health insurance scheme providing free health cover of Rs 5 lakh per year to poor and vulnerable families for secondary and tertiary care hospitalisation.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Street Vendor", "Unemployed", "Homemaker"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Must be in SECC database or BPL category", "Annual family income below Rs 5 lakh"]
+    },
+    "benefits": [
+      "Rs 5 lakh health insurance per year — completely free",
+      "Covers 1500+ medical treatments and surgeries",
+      "Valid at government and private empanelled hospitals",
+      "Cashless treatment — no upfront payment needed",
+      "Covers pre and post hospitalisation expenses"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Income Certificate",
+      "Caste Certificate if applicable"
+    ],
+    "apply_steps": [
+      "Visit pmjay.gov.in and check your eligibility by entering Aadhaar",
+      "If eligible visit nearest Common Service Centre with documents",
+      "Get your Ayushman Bharat Health Card made for free",
+      "Show the card at any empanelled hospital for cashless treatment"
+    ],
+    "apply_link": "https://pmjay.gov.in",
+    "tags": ["health", "insurance", "medical", "hospital", "free treatment"]
+  },
+  {
+    "id": "pm-mudra",
+    "name": "Pradhan Mantri Mudra Loan",
+    "ministry": "Ministry of Finance",
+    "description": "Provides loans up to Rs 10 lakh to non-corporate small business owners, shopkeepers, artisans, and entrepreneurs to start or expand their business without collateral.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Street Vendor", "Farmer", "Daily Wage Worker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 65,
+      "conditions": ["Must have a business plan or existing small business", "No collateral required for loans up to Rs 10 lakh"]
+    },
+    "benefits": [
+      "Shishu — loans up to Rs 50,000 for new businesses",
+      "Kishore — loans from Rs 50,000 to Rs 5 lakh",
+      "Tarun — loans from Rs 5 lakh to Rs 10 lakh",
+      "No collateral security required",
+      "Low interest rates"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Plan or proof of existing business",
+      "Bank Account Passbook",
+      "Passport size photographs",
+      "Caste Certificate if applicable"
+    ],
+    "apply_steps": [
+      "Visit any nationalized bank, regional rural bank, or microfinance institution",
+      "Ask for Pradhan Mantri Mudra Yojana loan application",
+      "Fill the form and attach all documents",
+      "Bank will verify and process your application",
+      "Loan amount credited to your account within 7 to 10 days"
+    ],
+    "apply_link": "https://www.mudra.org.in",
+    "tags": ["business", "loan", "entrepreneur", "self-employed", "finance"]
+  },
+  {
+    "id": "pmay-gramin",
+    "name": "PM Awas Yojana Gramin",
+    "ministry": "Ministry of Rural Development",
+    "description": "Provides financial assistance to rural households to construct a pucca house with basic amenities. A grant of Rs 1.2 to 1.3 lakh is given directly — no repayment needed.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Unemployed", "Homemaker"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must live in rural area", "Must not own a pucca house", "Must be in SECC 2011 list"]
+    },
+    "benefits": [
+      "Rs 1.2 lakh grant in plain areas — no repayment",
+      "Rs 1.3 lakh grant in hilly and difficult areas",
+      "Additional Rs 12,000 for toilet construction under Swachh Bharat",
+      "90 days unskilled labour from MGNREGS"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "BPL Ration Card",
+      "Land ownership document",
+      "Bank Account Passbook",
+      "Photograph of existing house"
+    ],
+    "apply_steps": [
+      "Visit your local Gram Panchayat office",
+      "Ask for PMAY Gramin registration form",
+      "Panchayat staff will help you fill the form",
+      "A government officer will visit to verify your housing status",
+      "After approval money is transferred in instalments as construction progresses"
+    ],
+    "apply_link": "https://pmayg.nic.in",
+    "tags": ["housing", "home", "rural", "construction", "shelter"]
+  },
+  {
+    "id": "beti-bachao",
+    "name": "Beti Bachao Beti Padhao",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Scheme to ensure the survival, protection and education of the girl child. Provides financial incentives and educational support for families with girl children.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Unemployed", "Homemaker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Must have a girl child", "Girl child must be below 10 years for Sukanya Samriddhi account"]
+    },
+    "benefits": [
+      "Sukanya Samriddhi Account — 8 percent interest for girl child savings",
+      "Free education for girls up to Class 8",
+      "Scholarship support for higher education",
+      "Conditional cash transfers for girl child education and health"
+    ],
+    "documents": [
+      "Aadhaar Card of parent",
+      "Birth certificate of girl child",
+      "Bank Account Passbook",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Visit nearest post office or bank to open Sukanya Samriddhi Account",
+      "Carry girl child birth certificate and parent Aadhaar",
+      "Minimum deposit Rs 250 to open account",
+      "Deposit regularly for maximum benefit",
+      "For other benefits visit nearest Anganwadi or district office"
+    ],
+    "apply_link": "https://wcd.nic.in/bbbp-schemes",
+    "tags": ["girl child", "education", "women", "savings", "scholarship"]
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": "PM SVANidhi Street Vendor Loan",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Provides affordable working capital loans to street vendors to resume their livelihoods that were adversely affected during the Covid pandemic. No collateral required.",
+    "eligibility": {
+      "profession": ["Street Vendor", "Self-Employed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 65,
+      "conditions": ["Must be a street vendor", "Must have vending certificate or letter of recommendation from Town Vending Committee"]
+    },
+    "benefits": [
+      "Initial loan of Rs 10,000 without collateral",
+      "Enhanced loan of Rs 20,000 on timely repayment",
+      "Further enhanced loan of Rs 50,000 on continued good repayment",
+      "7 percent interest subsidy per year",
+      "Digital transaction incentive of Rs 1200 per year"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Vending Certificate or Identity Card",
+      "Letter of Recommendation from Urban Local Body",
+      "Bank Account Passbook",
+      "Mobile Number"
+    ],
+    "apply_steps": [
+      "Visit pmsvanidhi.mohua.gov.in or nearest bank",
+      "Check eligibility and apply online or at bank branch",
+      "Submit vending certificate and documents",
+      "Loan processed within 30 days",
+      "Repay on time to get higher loan next time"
+    ],
+    "apply_link": "https://pmsvanidhi.mohua.gov.in",
+    "tags": ["street vendor", "loan", "working capital", "urban", "business"]
+  },
+  {
+    "id": "national-scholarship",
+    "name": "National Scholarship Portal",
+    "ministry": "Ministry of Electronics and IT",
+    "description": "Single portal for students to apply for various central and state government scholarships. Covers pre-matric, post-matric and merit-cum-means scholarships for students from weaker sections.",
+    "eligibility": {
+      "profession": ["Student"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["OBC", "SC", "ST", "EWS"],
+      "age_min": 6,
+      "age_max": 30,
+      "conditions": ["Must be enrolled in recognized institution", "Family annual income below Rs 2.5 lakh for most schemes", "Must have passed previous examination with minimum marks"]
+    },
+    "benefits": [
+      "Full tuition fee reimbursement",
+      "Monthly maintenance allowance",
+      "Book and stationery allowance",
+      "Hostel charges for residential students",
+      "Covers studies from Class 1 to PhD level"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Income Certificate from competent authority",
+      "Caste Certificate",
+      "Previous year marksheet",
+      "Bonafide certificate from current institution",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Visit scholarships.gov.in",
+      "Register with your Aadhaar number and mobile",
+      "Select your scholarship scheme from the list",
+      "Fill application form and upload documents",
+      "Submit before deadline shown on portal",
+      "Track status on the same portal"
+    ],
+    "apply_link": "https://scholarships.gov.in",
+    "tags": ["student", "scholarship", "education", "SC", "ST", "OBC", "EWS"]
+  },
+  {
+    "id": "pm-ujjwala",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "description": "Provides free LPG gas connections to women from Below Poverty Line households to replace dirty cooking fuels like wood and coal with clean LPG gas.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Homemaker", "Unemployed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be a woman", "Must be from BPL household", "Must not already have LPG connection in household"]
+    },
+    "benefits": [
+      "Free LPG gas connection",
+      "First gas cylinder provided free of cost",
+      "Gas stove provided at subsidised rate",
+      "Subsidy on subsequent cylinder refills"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "BPL Ration Card",
+      "Bank Account Passbook",
+      "Passport size photograph",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Visit nearest LPG distributor of any oil company",
+      "Ask for Pradhan Mantri Ujjwala Yojana application form",
+      "Fill form and submit BPL ration card and Aadhaar",
+      "Connection provided within 15 days of verification",
+      "Can also apply online at mylpg.in"
+    ],
+    "apply_link": "https://www.pmuy.gov.in",
+    "tags": ["women", "LPG", "gas", "BPL", "cooking", "fuel"]
+  },
+  {
+    "id": "stand-up-india",
+    "name": "Stand Up India Scheme",
+    "ministry": "Ministry of Finance",
+    "description": "Facilitates bank loans between Rs 10 lakh and Rs 1 crore to at least one SC or ST borrower and at least one woman borrower per bank branch for setting up greenfield enterprises.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Unemployed", "Salaried"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["SC", "ST"],
+      "age_min": 18,
+      "age_max": 65,
+      "conditions": ["SC or ST category OR woman entrepreneur", "Must be setting up a new enterprise in manufacturing, services or trading", "Borrower must not be in default to any bank"]
+    },
+    "benefits": [
+      "Loan from Rs 10 lakh to Rs 1 crore",
+      "Covers 75 percent of project cost",
+      "Repayment period up to 7 years",
+      "Working capital included in loan",
+      "Handholding support and training provided"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Caste Certificate for SC/ST",
+      "Business Plan",
+      "Bank Account Passbook",
+      "Passport size photographs",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Visit standupmitra.in to check eligibility",
+      "Register on the portal and fill in business details",
+      "Connect with nearest bank branch through portal",
+      "Submit business plan and documents to bank",
+      "Bank processes loan within 45 days"
+    ],
+    "apply_link": "https://www.standupmitra.in",
+    "tags": ["SC", "ST", "women", "entrepreneur", "business loan", "startup"]
+  },
+  {
+    "id": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana",
+    "ministry": "Ministry of Finance",
+    "description": "Accident insurance scheme offering Rs 2 lakh cover for accidental death or permanent disability at just Rs 20 per year premium. Available to all bank account holders aged 18 to 70.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 70,
+      "conditions": ["Must have a bank account with Aadhaar linked", "Must be aged 18 to 70 years"]
+    },
+    "benefits": [
+      "Rs 2 lakh on accidental death or permanent total disability",
+      "Rs 1 lakh on permanent partial disability",
+      "Only Rs 20 per year premium — auto debited from bank",
+      "Renewable every year automatically"
+    ],
+    "documents": [
+      "Aadhaar Card linked to bank account",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Visit your bank branch or net banking portal",
+      "Ask to enroll in Pradhan Mantri Suraksha Bima Yojana",
+      "Fill the simple consent form",
+      "Rs 20 will be auto debited from your account every year",
+      "You are covered immediately after enrollment"
+    ],
+    "apply_link": "https://jansuraksha.gov.in",
+    "tags": ["insurance", "accident", "all categories", "low cost", "bank account"]
+  },
+  {
+    "id": "pm-fasal-bima",
+    "name": "Pradhan Mantri Fasal Bima Yojana",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Crop insurance scheme providing financial support to farmers in case of crop failure due to natural calamities, pests or diseases. Covers all food and oilseed crops.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be a farmer with cultivable land", "Must have taken crop loan from bank", "Must insure crop before sowing season"]
+    },
+    "benefits": [
+      "Only 2 percent premium for Kharif crops",
+      "Only 1.5 percent premium for Rabi crops",
+      "Full sum insured paid in case of crop loss",
+      "Covers natural calamities, pests and diseases",
+      "Covers post-harvest losses also"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers",
+      "Bank Account Passbook",
+      "Crop loan documents",
+      "Sowing certificate from Patwari"
+    ],
+    "apply_steps": [
+      "Visit your bank where you have crop loan",
+      "Ask for Pradhan Mantri Fasal Bima Yojana enrollment",
+      "Fill the form with crop and land details",
+      "Pay nominal premium amount",
+      "Insurance active from sowing to harvest"
+    ],
+    "apply_link": "https://pmfby.gov.in",
+    "tags": ["farmer", "agriculture", "insurance", "crop", "natural calamity"]
+  },
+  {
+    "id": "atal-pension",
+    "name": "Atal Pension Yojana",
+    "ministry": "Ministry of Finance",
+    "description": "Pension scheme for unorganized sector workers. Guaranteed monthly pension of Rs 1000 to Rs 5000 after age 60 based on contribution amount. Government co-contributes for eligible subscribers.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Street Vendor", "Homemaker"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 40,
+      "conditions": ["Must have bank account with Aadhaar linked", "Must not be income tax payer", "Must not be covered under any statutory social security scheme"]
+    },
+    "benefits": [
+      "Guaranteed monthly pension from Rs 1000 to Rs 5000 after age 60",
+      "Government co-contribution of 50 percent for 5 years for eligible subscribers",
+      "Pension continues to spouse after subscriber death",
+      "Nominee gets corpus amount after both deaths",
+      "Tax benefits under Section 80CCD"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "Mobile Number"
+    ],
+    "apply_steps": [
+      "Visit your bank branch with Aadhaar and bank passbook",
+      "Fill Atal Pension Yojana enrollment form",
+      "Choose your desired pension amount",
+      "Monthly contribution auto-debited from your account",
+      "Can also enroll through net banking or mobile banking"
+    ],
+    "apply_link": "https://npscra.nsdl.co.in/apy",
+    "tags": ["pension", "retirement", "social security", "unorganized sector", "old age"]
+  },
+  {
+    "id": "jan-dhan",
+    "name": "Pradhan Mantri Jan Dhan Yojana",
+    "ministry": "Ministry of Finance",
+    "description": "Financial inclusion scheme providing zero balance bank accounts with RuPay debit card, accident insurance cover and overdraft facility to every household.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 10,
+      "age_max": 100,
+      "conditions": ["Must not have any bank account", "Must have Aadhaar or any identity proof"]
+    },
+    "benefits": [
+      "Zero balance bank account — no minimum balance required",
+      "Free RuPay debit card",
+      "Rs 2 lakh accident insurance cover",
+      "Rs 10,000 overdraft facility after 6 months of satisfactory operation",
+      "Direct benefit transfer of government schemes"
+    ],
+    "documents": [
+      "Aadhaar Card or any identity proof",
+      "Address Proof",
+      "Passport size photograph"
+    ],
+    "apply_steps": [
+      "Visit any bank branch with Aadhaar card",
+      "Ask for Jan Dhan account opening form",
+      "Fill simple form and submit documents",
+      "Account opened immediately",
+      "RuPay card provided within 7 days"
+    ],
+    "apply_link": "https://pmjdy.gov.in",
+    "tags": ["bank account", "financial inclusion", "zero balance", "insurance", "all categories"]
+  },
+  {
+    "id": "pmay-urban",
+    "name": "PM Awas Yojana Urban",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Provides financial assistance to urban poor for construction or purchase of house. Offers interest subsidy on home loans and direct grant for house construction.",
+    "eligibility": {
+      "profession": ["Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 21,
+      "age_max": 70,
+      "conditions": ["Must live in urban area", "Must not own pucca house in any part of India", "Annual household income below Rs 18 lakh"]
+    },
+    "benefits": [
+      "Interest subsidy up to Rs 2.67 lakh on home loans",
+      "Direct grant of Rs 1.5 lakh for EWS category",
+      "Loan tenure up to 20 years",
+      "Women ownership or co-ownership mandatory",
+      "Covers new construction and house purchase"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Property documents",
+      "Bank Account Passbook",
+      "Caste Certificate if applicable"
+    ],
+    "apply_steps": [
+      "Visit pmaymis.gov.in and register",
+      "Fill online application with income and property details",
+      "Upload required documents",
+      "Submit application and note application number",
+      "Visit nearest bank for home loan with subsidy"
+    ],
+    "apply_link": "https://pmaymis.gov.in",
+    "tags": ["housing", "urban", "home loan", "interest subsidy", "EWS"]
+  },
+  {
+    "id": "naps",
+    "name": "National Apprenticeship Promotion Scheme",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Provides apprenticeship training to youth in industry with monthly stipend. Government shares 25 percent of stipend cost with employers to promote apprenticeship opportunities.",
+    "eligibility": {
+      "profession": ["Student", "Unemployed"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 14,
+      "age_max": 35,
+      "conditions": ["Must have passed Class 5 or above", "Must be willing to undergo apprenticeship training"]
+    },
+    "benefits": [
+      "Monthly stipend from Rs 5000 to Rs 9000 based on qualification",
+      "On-the-job training in real industry environment",
+      "Certificate recognized by Government of India",
+      "Better employment opportunities after completion",
+      "Training period from 6 months to 3 years"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Educational certificates",
+      "Bank Account Passbook",
+      "Passport size photographs"
+    ],
+    "apply_steps": [
+      "Visit apprenticeshipindia.gov.in and register",
+      "Create profile with educational qualifications",
+      "Search for apprenticeship opportunities",
+      "Apply to suitable positions",
+      "Attend interview and join training"
+    ],
+    "apply_link": "https://apprenticeshipindia.gov.in",
+    "tags": ["apprenticeship", "skill training", "employment", "youth", "stipend"]
+  },
+  {
+    "id": "pm-kisan-maandhan",
+    "name": "PM Kisan Maan Dhan Yojana",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Pension scheme for small and marginal farmers. Provides guaranteed monthly pension of Rs 3000 after age 60 with matching contribution from government.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 40,
+      "conditions": ["Must be small or marginal farmer with cultivable land up to 2 hectares", "Must not be income tax payer"]
+    },
+    "benefits": [
+      "Guaranteed Rs 3000 monthly pension after age 60",
+      "Government contributes equal amount as farmer",
+      "Family pension of Rs 1500 to spouse after farmer death",
+      "Voluntary exit with interest after 5 years",
+      "Nominee gets corpus if both die"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers",
+      "Bank Account Passbook",
+      "Age proof"
+    ],
+    "apply_steps": [
+      "Visit nearest Common Service Centre with documents",
+      "CSC operator will check eligibility and enroll you",
+      "Monthly contribution auto-debited from bank account",
+      "Contribution ranges from Rs 55 to Rs 200 based on age",
+      "Pension starts from age 60"
+    ],
+    "apply_link": "https://maandhan.in",
+    "tags": ["farmer", "pension", "old age", "social security", "small farmer"]
+  },
+  {
+    "id": "national-health-mission",
+    "name": "National Health Mission",
+    "ministry": "Ministry of Health & Family Welfare",
+    "description": "Provides free healthcare services including maternal health, child health, immunization, family planning and treatment of communicable diseases at government health facilities.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Available to all citizens", "Services provided at government health centers"]
+    },
+    "benefits": [
+      "Free maternal and child health services",
+      "Free immunization for children",
+      "Free family planning services",
+      "Free treatment for TB, malaria, dengue",
+      "Free medicines at government hospitals",
+      "Janani Suraksha Yojana cash assistance for institutional delivery"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Any identity proof"
+    ],
+    "apply_steps": [
+      "Visit nearest Primary Health Centre or Community Health Centre",
+      "Register with Aadhaar or any identity proof",
+      "Avail free healthcare services",
+      "For maternal benefits register pregnancy at health center",
+      "All services completely free"
+    ],
+    "apply_link": "https://nhm.gov.in",
+    "tags": ["health", "free treatment", "maternal health", "child health", "immunization"]
+  },
+  {
+    "id": "skill-india",
+    "name": "Skill India Mission - PMKVY",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Provides free skill training to youth in various trades with government certification. Includes placement assistance and monetary rewards for successful candidates.",
+    "eligibility": {
+      "profession": ["Student", "Unemployed", "Daily Wage Worker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 15,
+      "age_max": 45,
+      "conditions": ["Must be school or college dropout or unemployed", "Must be willing to undergo skill training"]
+    },
+    "benefits": [
+      "Free skill training in 40+ sectors",
+      "Government recognized certification",
+      "Average monetary reward of Rs 8000 on successful completion",
+      "Placement assistance after training",
+      "Training duration 150 to 300 hours"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Educational certificates",
+      "Bank Account Passbook",
+      "Passport size photographs"
+    ],
+    "apply_steps": [
+      "Visit pmkvyofficial.org and find training center",
+      "Visit nearest training center with documents",
+      "Enroll in desired trade course",
+      "Complete training and appear for assessment",
+      "Get certificate and monetary reward"
+    ],
+    "apply_link": "https://www.pmkvyofficial.org",
+    "tags": ["skill training", "employment", "youth", "certification", "placement"]
+  },
+  {
+    "id": "startup-india",
+    "name": "Startup India Initiative",
+    "ministry": "Department for Promotion of Industry and Internal Trade",
+    "description": "Provides recognition, funding support, tax benefits and easier compliance for startups. Includes access to government tenders and intellectual property support.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Unemployed", "Student", "Salaried"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must have innovative business idea", "Company incorporated as private limited or LLP", "Annual turnover below Rs 100 crore"]
+    },
+    "benefits": [
+      "3 year income tax exemption",
+      "Self-certification for labor and environment laws",
+      "Access to Rs 10,000 crore fund of funds",
+      "80 percent rebate on patent filing fees",
+      "Fast track patent examination",
+      "Easier public procurement norms"
+    ],
+    "documents": [
+      "Certificate of Incorporation",
+      "PAN Card",
+      "Business Plan",
+      "Pitch Deck",
+      "Recommendation letter if applicable"
+    ],
+    "apply_steps": [
+      "Visit startupindia.gov.in and register",
+      "Fill startup recognition application",
+      "Upload incorporation certificate and details",
+      "Submit for recognition",
+      "After recognition apply for various benefits"
+    ],
+    "apply_link": "https://www.startupindia.gov.in",
+    "tags": ["startup", "entrepreneur", "business", "tax exemption", "funding"]
+  },
+  {
+    "id": "nrlm",
+    "name": "National Rural Livelihood Mission",
+    "ministry": "Ministry of Rural Development",
+    "description": "Promotes self-employment and organization of rural poor through Self Help Groups. Provides skill training, credit linkage and market access to rural women.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Homemaker", "Unemployed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be from rural area", "Must be willing to join Self Help Group", "Preferably women"]
+    },
+    "benefits": [
+      "Formation and strengthening of Self Help Groups",
+      "Revolving fund of Rs 15,000 per SHG",
+      "Community Investment Fund of Rs 1.3 lakh per SHG",
+      "Bank linkage for credit up to Rs 10 lakh",
+      "Skill training and market linkages",
+      "Interest subvention on loans"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "BPL Ration Card",
+      "Bank Account Passbook",
+      "Photograph"
+    ],
+    "apply_steps": [
+      "Contact nearest Block Development Office or Gram Panchayat",
+      "Join existing Self Help Group or form new group with 10-15 women",
+      "Register SHG with NRLM",
+      "Attend training programs",
+      "Access credit and other benefits through SHG"
+    ],
+    "apply_link": "https://nrlm.gov.in",
+    "tags": ["rural", "women", "self help group", "livelihood", "credit"]
+  },
+  {
+    "id": "ddu-gky",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+    "ministry": "Ministry of Rural Development",
+    "description": "Skill training and placement program for rural youth. Provides residential training with food and accommodation, certification and guaranteed placement assistance.",
+    "eligibility": {
+      "profession": ["Unemployed", "Student", "Daily Wage Worker"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 15,
+      "age_max": 35,
+      "conditions": ["Must be from rural area", "Must be willing to migrate for employment", "Preference to BPL families"]
+    },
+    "benefits": [
+      "Free residential skill training with food and stay",
+      "Training in high-demand sectors like retail, hospitality, healthcare",
+      "Minimum 70 percent placement guarantee",
+      "Post-placement tracking for one year",
+      "Travel allowance and stipend during training"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "BPL Ration Card or SECC data",
+      "Educational certificates",
+      "Bank Account Passbook",
+      "Passport size photographs"
+    ],
+    "apply_steps": [
+      "Visit ddugky.gov.in to find training partners",
+      "Contact nearest DDU-GKY training center",
+      "Register with documents",
+      "Undergo residential training for 3 to 12 months",
+      "Get placed in organized sector job"
+    ],
+    "apply_link": "https://ddugky.gov.in",
+    "tags": ["rural youth", "skill training", "placement", "residential training", "employment"]
+  },
+  {
+    "id": "pm-jjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "ministry": "Ministry of Finance",
+    "description": "Life insurance scheme offering Rs 2 lakh cover for death due to any reason at just Rs 436 per year premium. Available to all bank account holders aged 18 to 50.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 50,
+      "conditions": ["Must have bank account with Aadhaar linked", "Must be aged 18 to 50 years"]
+    },
+    "benefits": [
+      "Rs 2 lakh life cover for death due to any reason",
+      "Only Rs 436 per year premium",
+      "Auto renewal every year",
+      "Coverage till age 55",
+      "Simple claim process"
+    ],
+    "documents": [
+      "Aadhaar Card linked to bank account",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Visit your bank branch or net banking",
+      "Enroll in Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "Fill consent form",
+      "Rs 436 auto debited annually from account",
+      "Coverage active immediately"
+    ],
+    "apply_link": "https://jansuraksha.gov.in",
+    "tags": ["life insurance", "death cover", "all categories", "low cost"]
+  },
+  {
+    "id": "nfsa",
+    "name": "National Food Security Act",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "description": "Provides highly subsidized food grains to eligible households. Priority households get 5 kg per person per month at Rs 2-3 per kg. Antyodaya households get 35 kg per family.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Street Vendor", "Homemaker", "Unemployed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Must have ration card", "Must be in priority or Antyodaya category"]
+    },
+    "benefits": [
+      "Rice at Rs 3 per kg",
+      "Wheat at Rs 2 per kg",
+      "Coarse grains at Rs 1 per kg",
+      "5 kg per person per month for priority households",
+      "35 kg per family for Antyodaya households"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Income Certificate",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Visit nearest Fair Price Shop or Food and Civil Supplies office",
+      "Apply for ration card with documents",
+      "Card issued after verification",
+      "Collect subsidized food grains monthly from Fair Price Shop",
+      "Aadhaar authentication required at shop"
+    ],
+    "apply_link": "https://nfsa.gov.in",
+    "tags": ["food security", "ration", "subsidized food", "BPL", "Antyodaya"]
+  },
+  {
+    "id": "pm-gkay",
+    "name": "PM Garib Kalyan Anna Yojana",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "description": "Provides additional 5 kg free food grains per person per month over and above the NFSA entitlement. Launched during COVID and continues to support poor families.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Street Vendor", "Homemaker", "Unemployed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Must have ration card under NFSA", "Automatic eligibility for all NFSA beneficiaries"]
+    },
+    "benefits": [
+      "Additional 5 kg free food grains per person per month",
+      "Over and above regular NFSA quota",
+      "Completely free — no cost",
+      "Available at Fair Price Shops",
+      "Covers 80 crore beneficiaries"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card"
+    ],
+    "apply_steps": [
+      "No separate application needed",
+      "If you have NFSA ration card you are automatically eligible",
+      "Visit Fair Price Shop with ration card",
+      "Collect regular quota plus additional 5 kg free",
+      "Aadhaar authentication at shop"
+    ],
+    "apply_link": "https://dfpd.gov.in",
+    "tags": ["food security", "free food grains", "ration", "COVID relief", "BPL"]
+  },
+  {
+    "id": "mgnrega",
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Act",
+    "ministry": "Ministry of Rural Development",
+    "description": "Guarantees 100 days of wage employment per year to rural households. Provides livelihood security through creation of durable assets in rural areas.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Unemployed", "Homemaker"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be from rural area", "Must be willing to do unskilled manual work"]
+    },
+    "benefits": [
+      "Guaranteed 100 days employment per household per year",
+      "Wages paid as per state minimum wage rates",
+      "Work provided within 5 km of village",
+      "Unemployment allowance if work not provided within 15 days",
+      "Payment directly to bank account within 15 days"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "Passport size photograph",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Visit Gram Panchayat office with documents",
+      "Apply for MGNREGA job card",
+      "Job card issued within 15 days",
+      "Apply for work when needed",
+      "Work provided within 15 days or unemployment allowance paid"
+    ],
+    "apply_link": "https://nrega.nic.in",
+    "tags": ["rural employment", "wage employment", "100 days work", "livelihood"]
+  },
+  {
+    "id": "digital-india",
+    "name": "Digital India Programme",
+    "ministry": "Ministry of Electronics and IT",
+    "description": "Umbrella program to transform India into digitally empowered society. Provides digital infrastructure, digital literacy, and digital services to citizens.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 6,
+      "age_max": 100,
+      "conditions": ["Available to all citizens"]
+    },
+    "benefits": [
+      "Free digital literacy training through PMGDISHA",
+      "Access to government services online through DigiLocker, UMANG app",
+      "Free WiFi in public places",
+      "Digital payment infrastructure",
+      "E-governance services",
+      "Common Service Centers in villages"
+    ],
+    "documents": [
+      "Aadhaar Card for digital services",
+      "Mobile number"
+    ],
+    "apply_steps": [
+      "For digital literacy visit nearest Common Service Centre",
+      "Register for PMGDISHA training",
+      "Download DigiLocker and UMANG apps",
+      "Link Aadhaar for digital services",
+      "Access government services online"
+    ],
+    "apply_link": "https://digitalindia.gov.in",
+    "tags": ["digital literacy", "e-governance", "digital services", "all categories"]
+  },
+  {
+    "id": "ujala-scheme",
+    "name": "UJALA - LED Bulb Distribution Scheme",
+    "ministry": "Ministry of Power",
+    "description": "Provides LED bulbs at highly subsidized rates to reduce electricity consumption and bills. Part of energy efficiency mission.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must have electricity connection", "Available to all consumers"]
+    },
+    "benefits": [
+      "9 watt LED bulbs at Rs 70 only",
+      "Saves 85 percent electricity compared to incandescent bulbs",
+      "3 year warranty on bulbs",
+      "Reduces electricity bills significantly",
+      "Environment friendly"
+    ],
+    "documents": [
+      "Electricity bill",
+      "Any identity proof"
+    ],
+    "apply_steps": [
+      "Visit nearest UJALA distribution center",
+      "Show electricity bill and identity proof",
+      "Exchange old bulbs or buy new LED bulbs",
+      "Pay Rs 70 per bulb",
+      "Start saving on electricity bills immediately"
+    ],
+    "apply_link": "https://ujala.gov.in",
+    "tags": ["LED bulbs", "energy efficiency", "electricity saving", "all categories"]
+  },
+  {
+    "id": "swachh-bharat",
+    "name": "Swachh Bharat Mission - Toilet Construction",
+    "ministry": "Ministry of Jal Shakti",
+    "description": "Provides financial assistance of Rs 12,000 for construction of individual household toilets in rural and urban areas to achieve Open Defecation Free India.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Homemaker", "Unemployed"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must not have toilet at home", "Must own house or have permission from landlord"]
+    },
+    "benefits": [
+      "Rs 12,000 grant for toilet construction",
+      "Technical guidance for construction",
+      "No repayment required",
+      "Improves health and dignity",
+      "Additional benefits under PMAY if eligible"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "House ownership proof or landlord permission",
+      "Photograph of house without toilet"
+    ],
+    "apply_steps": [
+      "Visit Gram Panchayat or Municipal office",
+      "Apply for Swachh Bharat Mission toilet",
+      "Submit documents and application",
+      "Construct toilet as per guidelines",
+      "Money transferred to account after verification"
+    ],
+    "apply_link": "https://swachhbharatmission.gov.in",
+    "tags": ["sanitation", "toilet", "rural", "urban", "health"]
+  },
+  {
+    "id": "jal-jeevan-mission",
+    "name": "Jal Jeevan Mission",
+    "ministry": "Ministry of Jal Shakti",
+    "description": "Aims to provide functional household tap water connection to every rural household. Ensures regular and adequate supply of potable water.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Homemaker", "Unemployed"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be from rural area", "Must not have piped water connection"]
+    },
+    "benefits": [
+      "Free piped water connection to household",
+      "Assured supply of 55 liters per capita per day",
+      "Potable water quality as per BIS standards",
+      "Reduces drudgery of women in fetching water",
+      "Improves health and quality of life"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Address Proof",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Village level planning done by Gram Panchayat",
+      "Households identified for connection",
+      "No individual application needed",
+      "Connection provided as per village plan",
+      "Nominal user charges for operation and maintenance"
+    ],
+    "apply_link": "https://jaljeevanmission.gov.in",
+    "tags": ["water supply", "piped water", "rural", "drinking water", "sanitation"]
+  },
+  {
+    "id": "pm-shram-yogi",
+    "name": "PM Shram Yogi Maan Dhan Yojana",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "Pension scheme for unorganized workers earning up to Rs 15,000 per month. Provides guaranteed monthly pension of Rs 3000 after age 60.",
+    "eligibility": {
+      "profession": ["Daily Wage Worker", "Self-Employed", "Street Vendor", "Homemaker"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 40,
+      "conditions": ["Monthly income up to Rs 15,000", "Must not be covered under EPFO, ESIC or NPS", "Must not be income tax payer"]
+    },
+    "benefits": [
+      "Guaranteed Rs 3000 monthly pension after age 60",
+      "Government contributes equal amount as worker",
+      "Family pension of Rs 1500 to spouse",
+      "Voluntary exit with interest",
+      "Low monthly contribution from Rs 55 to Rs 200"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "Self declaration of monthly income"
+    ],
+    "apply_steps": [
+      "Visit nearest Common Service Centre",
+      "Carry Aadhaar and bank passbook",
+      "CSC operator will enroll you",
+      "Monthly contribution auto-debited from account",
+      "Pension starts from age 60"
+    ],
+    "apply_link": "https://maandhan.in",
+    "tags": ["pension", "unorganized worker", "old age", "social security"]
+  },
+  {
+    "id": "pm-kaushal-vikas",
+    "name": "PM Kaushal Vikas Yojana 4.0",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Flagship skill development scheme providing industry-relevant skill training to youth. Focus on emerging technologies and Industry 4.0 skills.",
+    "eligibility": {
+      "profession": ["Student", "Unemployed", "Daily Wage Worker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 15,
+      "age_max": 45,
+      "conditions": ["Must be school or college dropout or unemployed", "Must have basic literacy"]
+    },
+    "benefits": [
+      "Free skill training in 200+ courses",
+      "Training in emerging technologies like AI, IoT, robotics",
+      "Government recognized certification",
+      "Monetary reward up to Rs 8000 on completion",
+      "Placement assistance",
+      "Training duration 150 to 300 hours"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Educational certificates",
+      "Bank Account Passbook",
+      "Passport size photographs"
+    ],
+    "apply_steps": [
+      "Visit pmkvyofficial.org",
+      "Find training center near you",
+      "Enroll in desired course",
+      "Complete training and assessment",
+      "Get certificate and monetary reward"
+    ],
+    "apply_link": "https://www.pmkvyofficial.org",
+    "tags": ["skill training", "youth", "employment", "certification", "Industry 4.0"]
+  },
+  {
+    "id": "one-nation-one-ration",
+    "name": "One Nation One Ration Card",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "description": "Enables migrant workers and their families to access subsidized food grains from any Fair Price Shop in India using same ration card.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Street Vendor", "Homemaker", "Unemployed"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Must have NFSA ration card", "Aadhaar must be linked to ration card"]
+    },
+    "benefits": [
+      "Access food grains from any Fair Price Shop in India",
+      "Useful for migrant workers",
+      "No need to transfer ration card",
+      "Biometric authentication at shop",
+      "Portability across all states"
+    ],
+    "documents": [
+      "Aadhaar Card linked to ration card",
+      "Ration Card"
+    ],
+    "apply_steps": [
+      "Ensure Aadhaar is linked to your ration card",
+      "Visit any Fair Price Shop in India",
+      "Provide ration card number and Aadhaar",
+      "Biometric authentication",
+      "Collect your entitled food grains"
+    ],
+    "apply_link": "https://nfsa.gov.in/portal/onorc",
+    "tags": ["ration card", "portability", "migrant workers", "food security"]
+  },
+  {
+    "id": "pm-daksh",
+    "name": "PM-DAKSH - Skill Development for Marginalized",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Provides free skill development training to marginalized communities including SC, OBC and minorities. Includes up-skilling, reskilling and entrepreneurship training.",
+    "eligibility": {
+      "profession": ["Student", "Unemployed", "Daily Wage Worker", "Self-Employed"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 45,
+      "conditions": ["Must belong to SC, OBC or minority community", "Annual family income below Rs 3 lakh for OBC, Rs 2.5 lakh for others"]
+    },
+    "benefits": [
+      "Free skill training in various trades",
+      "Stipend during training",
+      "Government recognized certification",
+      "Placement assistance",
+      "Entrepreneurship development training",
+      "Digital and financial literacy"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate",
+      "Educational certificates",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Visit pmdaksh.dosje.gov.in",
+      "Register with Aadhaar and caste certificate",
+      "Select training course",
+      "Attend training at empanelled institute",
+      "Get certificate and placement support"
+    ],
+    "apply_link": "https://pmdaksh.dosje.gov.in",
+    "tags": ["SC", "OBC", "skill training", "marginalized", "employment"]
+  },
+  {
+    "id": "kisan-credit-card",
+    "name": "Kisan Credit Card Scheme",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Provides short term credit to farmers for cultivation and other needs at subsidized interest rates. Simple and hassle-free credit facility.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 75,
+      "conditions": ["Must be farmer with cultivable land", "Can be owner cultivator, tenant farmer or sharecropper"]
+    },
+    "benefits": [
+      "Credit limit based on cropping pattern and scale of finance",
+      "Interest rate only 7 percent per annum",
+      "Additional 3 percent interest subvention on prompt repayment",
+      "Effective interest rate 4 percent",
+      "Accident insurance cover of Rs 50,000",
+      "Life insurance cover up to Rs 50,000"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers",
+      "Bank Account Passbook",
+      "Passport size photographs"
+    ],
+    "apply_steps": [
+      "Visit nearest bank branch with documents",
+      "Fill Kisan Credit Card application form",
+      "Submit land documents",
+      "Bank verifies and sanctions credit limit",
+      "KCC issued within 7 to 14 days"
+    ],
+    "apply_link": "https://pmkisan.gov.in/kcc",
+    "tags": ["farmer", "agriculture", "credit", "loan", "subsidized interest"]
+  },
+  {
+    "id": "soil-health-card",
+    "name": "Soil Health Card Scheme",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Provides soil health cards to farmers with information on nutrient status of soil and recommendations on appropriate dosage of nutrients for improving soil health and fertility.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be farmer with cultivable land"]
+    },
+    "benefits": [
+      "Free soil testing",
+      "Soil health card with nutrient status",
+      "Recommendations for fertilizer application",
+      "Helps reduce fertilizer cost",
+      "Improves crop productivity",
+      "Card issued every 2 years"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers"
+    ],
+    "apply_steps": [
+      "Contact nearest Agriculture Department office",
+      "Register for soil health card",
+      "Agriculture officer collects soil sample from your field",
+      "Sample tested at soil testing laboratory",
+      "Soil health card issued with recommendations"
+    ],
+    "apply_link": "https://soilhealth.dac.gov.in",
+    "tags": ["farmer", "agriculture", "soil testing", "fertilizer", "crop productivity"]
+  },
+  {
+    "id": "pm-kusum",
+    "name": "PM-KUSUM Solar Pump Scheme",
+    "ministry": "Ministry of New and Renewable Energy",
+    "description": "Provides financial support to farmers for installation of solar pumps and grid-connected solar power plants on barren land. Reduces diesel dependency and electricity cost.",
+    "eligibility": {
+      "profession": ["Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be farmer with cultivable or barren land", "Must have electricity connection for Component C"]
+    },
+    "benefits": [
+      "60 percent subsidy on solar pump installation",
+      "30 percent bank loan at low interest",
+      "Only 10 percent farmer contribution",
+      "Saves diesel and electricity cost",
+      "Additional income from selling surplus power to grid",
+      "25 year life of solar panels"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers",
+      "Bank Account Passbook",
+      "Electricity bill if applicable"
+    ],
+    "apply_steps": [
+      "Visit nearest Agriculture or Renewable Energy office",
+      "Apply for PM-KUSUM scheme",
+      "Submit land documents and application",
+      "Empanelled vendor installs solar pump",
+      "Subsidy credited after installation verification"
+    ],
+    "apply_link": "https://pmkusum.mnre.gov.in",
+    "tags": ["farmer", "solar pump", "renewable energy", "subsidy", "agriculture"]
+  },
+  {
+    "id": "rashtriya-gokul-mission",
+    "name": "Rashtriya Gokul Mission",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "description": "Aims to conserve and develop indigenous bovine breeds. Provides financial assistance for establishment of integrated cattle development centers and breed multiplication farms.",
+    "eligibility": {
+      "profession": ["Farmer", "Self-Employed"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be engaged in dairy farming or animal husbandry", "Must have land for cattle rearing"]
+    },
+    "benefits": [
+      "Financial assistance for setting up Gokul Grams",
+      "Subsidy for breed improvement programs",
+      "Training on scientific cattle rearing",
+      "Support for fodder development",
+      "Marketing support for milk and milk products",
+      "Veterinary services"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership papers",
+      "Bank Account Passbook",
+      "Project report for large units"
+    ],
+    "apply_steps": [
+      "Contact nearest Animal Husbandry Department",
+      "Submit application with project details",
+      "Department verifies and approves",
+      "Implement project as per guidelines",
+      "Subsidy released in installments"
+    ],
+    "apply_link": "https://dahd.nic.in",
+    "tags": ["farmer", "dairy", "cattle", "animal husbandry", "indigenous breeds"]
+  },
+  {
+    "id": "blue-revolution",
+    "name": "Blue Revolution - Fisheries Development",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "description": "Integrated scheme for fisheries development. Provides financial assistance for fish farming, hatcheries, cold storage and marketing infrastructure.",
+    "eligibility": {
+      "profession": ["Farmer", "Self-Employed", "Daily Wage Worker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must have water body or willing to take up fish farming", "Can be individual or group"]
+    },
+    "benefits": [
+      "40 to 60 percent subsidy on fish farming infrastructure",
+      "Training on scientific fish farming",
+      "Subsidy for fish seed production",
+      "Support for cold storage and ice plants",
+      "Marketing assistance",
+      "Insurance coverage for fish farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land or water body ownership proof",
+      "Bank Account Passbook",
+      "Project report",
+      "Caste certificate if applicable"
+    ],
+    "apply_steps": [
+      "Contact nearest Fisheries Department office",
+      "Submit application with project details",
+      "Department conducts site inspection",
+      "Approval and subsidy sanction",
+      "Implement project and claim subsidy"
+    ],
+    "apply_link": "https://dof.gov.in",
+    "tags": ["fisheries", "fish farming", "aquaculture", "subsidy", "rural livelihood"]
+  },
+  {
+    "id": "pm-matsya-sampada",
+    "name": "Pradhan Mantri Matsya Sampada Yojana",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "description": "Aims to enhance fish production and productivity. Provides financial assistance for fisheries infrastructure, modernization and value chain development.",
+    "eligibility": {
+      "profession": ["Farmer", "Self-Employed", "Daily Wage Worker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be engaged in fisheries or willing to start", "Can be individual, group or entrepreneur"]
+    },
+    "benefits": [
+      "40 to 60 percent subsidy for general category",
+      "60 percent subsidy for SC/ST",
+      "Support for fish farming, hatcheries, feed mills",
+      "Subsidy for fishing vessels and equipment",
+      "Cold chain and marketing infrastructure",
+      "Skill development and training"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land or water body documents",
+      "Bank Account Passbook",
+      "Project report",
+      "Caste certificate if applicable"
+    ],
+    "apply_steps": [
+      "Visit pmmsy.dof.gov.in",
+      "Register and submit online application",
+      "Upload project report and documents",
+      "Department verifies and approves",
+      "Implement project and receive subsidy"
+    ],
+    "apply_link": "https://pmmsy.dof.gov.in",
+    "tags": ["fisheries", "aquaculture", "subsidy", "SC/ST", "entrepreneurship"]
+  },
+  {
+    "id": "pm-fme",
+    "name": "PM Formalization of Micro Food Processing Enterprises",
+    "ministry": "Ministry of Food Processing Industries",
+    "description": "Provides financial, technical and business support to micro food processing enterprises. Aims to upgrade existing units and formalize unorganized sector.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Farmer"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must have existing food processing unit or willing to start", "Annual turnover below Rs 2 crore"]
+    },
+    "benefits": [
+      "35 percent credit-linked subsidy on eligible project cost",
+      "Maximum subsidy Rs 10 lakh per unit",
+      "Training and handholding support",
+      "Marketing and branding assistance",
+      "Access to common infrastructure",
+      "FSSAI license support"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account Passbook",
+      "Business registration documents",
+      "Project report"
+    ],
+    "apply_steps": [
+      "Visit pmfme.mofpi.gov.in",
+      "Register on portal",
+      "Submit detailed project report",
+      "Get approval from district level committee",
+      "Implement project and claim subsidy"
+    ],
+    "apply_link": "https://pmfme.mofpi.gov.in",
+    "tags": ["food processing", "micro enterprise", "subsidy", "entrepreneurship"]
+  },
+  {
+    "id": "pm-wani",
+    "name": "PM-WANI - Public WiFi Scheme",
+    "ministry": "Department of Telecommunications",
+    "description": "Promotes setting up of public WiFi hotspots by entrepreneurs. Provides framework for public data office aggregators to provide internet services.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be willing to set up public WiFi hotspot", "No license fee required"]
+    },
+    "benefits": [
+      "No license fee for providing WiFi service",
+      "Low cost of setting up hotspot",
+      "Revenue sharing model",
+      "Support from PDO aggregators",
+      "Growing demand for public WiFi",
+      "Digital India initiative support"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account Passbook",
+      "Address Proof"
+    ],
+    "apply_steps": [
+      "Register with any PDO Aggregator",
+      "Purchase WiFi equipment",
+      "Set up public WiFi hotspot",
+      "Start providing internet services",
+      "Earn revenue from users"
+    ],
+    "apply_link": "https://dot.gov.in/pm-wani",
+    "tags": ["WiFi", "internet", "entrepreneurship", "digital India", "self-employed"]
+  },
+  {
+    "id": "samagra-shiksha",
+    "name": "Samagra Shiksha Abhiyan",
+    "ministry": "Ministry of Education",
+    "description": "Integrated scheme for school education from pre-school to class 12. Provides free textbooks, uniforms, mid-day meals and quality education infrastructure.",
+    "eligibility": {
+      "profession": ["Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 3,
+      "age_max": 18,
+      "conditions": ["Must be enrolled in government or government-aided school"]
+    },
+    "benefits": [
+      "Free textbooks for all students",
+      "Free uniforms",
+      "Free mid-day meals",
+      "Free bicycles for girls in secondary classes",
+      "Quality education infrastructure",
+      "Teacher training programs",
+      "Special focus on girls education"
+    ],
+    "documents": [
+      "School enrollment certificate",
+      "Aadhaar Card",
+      "Caste certificate if applicable"
+    ],
+    "apply_steps": [
+      "Enroll child in nearest government school",
+      "Benefits provided automatically by school",
+      "No separate application needed",
+      "Mid-day meals provided daily",
+      "Textbooks and uniforms distributed at start of academic year"
+    ],
+    "apply_link": "https://samagra.education.gov.in",
+    "tags": ["education", "student", "school", "free textbooks", "mid-day meal"]
+  },
+  {
+    "id": "nai-roshni",
+    "name": "Nai Roshni - Leadership Development for Minority Women",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Provides leadership development training to women from minority communities. Empowers them with knowledge of government programs, legal rights and confidence building.",
+    "eligibility": {
+      "profession": ["Homemaker", "Self-Employed", "Unemployed"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "EWS"],
+      "age_min": 18,
+      "age_max": 65,
+      "conditions": ["Must be woman from minority community", "Preferably from BPL or EWS category"]
+    },
+    "benefits": [
+      "Free leadership development training",
+      "Information on government schemes and programs",
+      "Legal literacy and rights awareness",
+      "Confidence building and personality development",
+      "Networking opportunities",
+      "Certificate on completion"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Community certificate",
+      "Income certificate if applicable"
+    ],
+    "apply_steps": [
+      "Contact nearest Minority Welfare Department office",
+      "Register for Nai Roshni training program",
+      "Attend training sessions",
+      "Complete course and get certificate",
+      "Become community leader and help others"
+    ],
+    "apply_link": "https://minorityaffairs.gov.in",
+    "tags": ["women", "minority", "leadership", "empowerment", "training"]
+  },
+  {
+    "id": "namo-drone-didi",
+    "name": "Namo Drone Didi Scheme",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Provides drones to women Self Help Groups for agricultural purposes. Enables women to provide drone services to farmers for pesticide spraying and crop monitoring.",
+    "eligibility": {
+      "profession": ["Farmer", "Homemaker", "Self-Employed"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be member of women Self Help Group", "SHG must be registered and active"]
+    },
+    "benefits": [
+      "Drone provided to women SHGs",
+      "Training on drone operation and maintenance",
+      "Opportunity to earn income by providing drone services",
+      "Rs 15,000 grant for pilot training",
+      "Support for business development",
+      "Contributes to women empowerment"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "SHG registration certificate",
+      "Bank Account Passbook of SHG",
+      "List of SHG members"
+    ],
+    "apply_steps": [
+      "SHG applies through Agriculture Department",
+      "Selected SHGs receive drone and training",
+      "Members get pilot training certification",
+      "Start providing drone services to farmers",
+      "Earn income from service charges"
+    ],
+    "apply_link": "https://agricoop.nic.in",
+    "tags": ["women", "SHG", "drone", "agriculture", "entrepreneurship"]
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "description": "Provides financial support and skill training to traditional artisans and craftspeople. Includes collateral-free loans, modern tools and market linkages.",
+    "eligibility": {
+      "profession": ["Self-Employed", "Daily Wage Worker"],
+      "income_max": "₹25,000 – ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be traditional artisan or craftsperson", "Working with hands and tools in 18 identified trades"]
+    },
+    "benefits": [
+      "Collateral-free loan up to Rs 1 lakh at 5 percent interest",
+      "Additional loan up to Rs 2 lakh on timely repayment",
+      "Stipend of Rs 500 per day during training",
+      "Toolkit incentive of Rs 15,000",
+      "Digital transactions incentive",
+      "Marketing support and brand promotion"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "Proof of traditional occupation",
+      "Caste certificate if applicable"
+    ],
+    "apply_steps": [
+      "Visit pmvishwakarma.gov.in",
+      "Register with Aadhaar",
+      "Submit application with occupation proof",
+      "Attend skill training",
+      "Receive toolkit and apply for loan"
+    ],
+    "apply_link": "https://pmvishwakarma.gov.in",
+    "tags": ["artisan", "craftsperson", "loan", "skill training", "traditional occupation"]
+  },
+  {
+    "id": "pm-suryaghar",
+    "name": "PM Surya Ghar Muft Bijli Yojana",
+    "ministry": "Ministry of New and Renewable Energy",
+    "description": "Provides subsidy for rooftop solar installation in residential houses. Aims to provide free electricity up to 300 units per month through solar power.",
+    "eligibility": {
+      "profession": ["Farmer", "Self-Employed", "Salaried", "Homemaker"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must own residential house", "Must have electricity connection"]
+    },
+    "benefits": [
+      "60 percent subsidy for systems up to 2 kW",
+      "40 percent subsidy for additional capacity up to 3 kW",
+      "Free electricity up to 300 units per month",
+      "Reduces electricity bills to zero",
+      "25 year life of solar panels",
+      "Environment friendly clean energy"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Electricity bill",
+      "House ownership proof",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Visit pmsuryaghar.gov.in",
+      "Register with electricity consumer number",
+      "Apply for rooftop solar with capacity",
+      "Empanelled vendor installs system",
+      "Subsidy credited after installation"
+    ],
+    "apply_link": "https://pmsuryaghar.gov.in",
+    "tags": ["solar", "rooftop", "electricity", "subsidy", "renewable energy"]
+  },
+  {
+    "id": "ayushman-arogya-mandir",
+    "name": "Ayushman Arogya Mandir - Health and Wellness Centers",
+    "ministry": "Ministry of Health & Family Welfare",
+    "description": "Upgraded health centers providing comprehensive primary healthcare including screening for NCDs, maternal and child health, and free essential medicines.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed", "Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Available to all citizens"]
+    },
+    "benefits": [
+      "Free comprehensive primary healthcare",
+      "Screening for diabetes, hypertension, cancer",
+      "Maternal and child health services",
+      "Free essential medicines",
+      "Teleconsultation facilities",
+      "Yoga and wellness activities",
+      "Health promotion and disease prevention"
+    ],
+    "documents": [
+      "Aadhaar Card or any identity proof"
+    ],
+    "apply_steps": [
+      "Visit nearest Ayushman Arogya Mandir",
+      "Register with Aadhaar or identity proof",
+      "Avail free healthcare services",
+      "Get free medicines",
+      "No fees or charges"
+    ],
+    "apply_link": "https://ab-hwc.nhp.gov.in",
+    "tags": ["health", "primary healthcare", "free medicines", "wellness", "all categories"]
+  },
+  {
+    "id": "lakhpati-didi",
+    "name": "Lakhpati Didi Scheme",
+    "ministry": "Ministry of Rural Development",
+    "description": "Aims to make women SHG members earn Rs 1 lakh or more annually through skill training, credit linkage and market support. Part of women empowerment initiative.",
+    "eligibility": {
+      "profession": ["Farmer", "Homemaker", "Self-Employed", "Daily Wage Worker"],
+      "income_max": "₹10,000 – ₹25,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 18,
+      "age_max": 100,
+      "conditions": ["Must be member of women Self Help Group", "SHG must be active under NRLM"]
+    },
+    "benefits": [
+      "Skill training in high-income activities",
+      "Credit linkage up to Rs 20 lakh per SHG",
+      "Market linkages and buyer connections",
+      "Support for value addition and processing",
+      "Handholding and mentoring",
+      "Target to earn Rs 1 lakh or more annually"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "SHG membership proof",
+      "Bank Account Passbook"
+    ],
+    "apply_steps": [
+      "Join women Self Help Group in your village",
+      "SHG registers under NRLM",
+      "Attend skill training programs",
+      "Access credit for income generation",
+      "Start enterprise and earn Rs 1 lakh plus annually"
+    ],
+    "apply_link": "https://nrlm.gov.in",
+    "tags": ["women", "SHG", "income generation", "skill training", "empowerment"]
+  },
+  {
+    "id": "pm-cares-for-children",
+    "name": "PM CARES for Children Scheme",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Provides support to children who lost both parents or surviving parent or legal guardian during COVID-19 pandemic. Includes education, health insurance and monthly stipend.",
+    "eligibility": {
+      "profession": ["Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 23,
+      "conditions": ["Must have lost both parents or surviving parent during COVID-19", "Age below 18 years at time of death of parents"]
+    },
+    "benefits": [
+      "Rs 4000 monthly stipend from age 18 to 23",
+      "Corpus of Rs 10 lakh at age 23",
+      "Free education from KG to professional courses",
+      "Health insurance of Rs 5 lakh under Ayushman Bharat",
+      "Support for higher education and skill training",
+      "Residential school admission if needed"
+    ],
+    "documents": [
+      "Death certificate of parents",
+      "Birth certificate of child",
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "School enrollment certificate"
+    ],
+    "apply_steps": [
+      "Visit nearest District Child Protection Unit",
+      "Submit application with death certificates",
+      "Child Welfare Committee verifies",
+      "Benefits activated after approval",
+      "Monthly stipend and education support provided"
+    ],
+    "apply_link": "https://wcd.nic.in",
+    "tags": ["children", "COVID orphans", "education", "stipend", "health insurance"]
+  },
+  {
+    "id": "pm-poshan-shakti-nirman",
+    "name": "PM POSHAN - Mid Day Meal Scheme",
+    "ministry": "Ministry of Education",
+    "description": "Provides hot cooked mid-day meals to children in government and government-aided schools. Aims to improve nutritional status and encourage school attendance.",
+    "eligibility": {
+      "profession": ["Student"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 3,
+      "age_max": 14,
+      "conditions": ["Must be enrolled in government or government-aided school from pre-primary to class 8"]
+    },
+    "benefits": [
+      "Free hot cooked meal every school day",
+      "Nutritious meal with prescribed calories and protein",
+      "Improves nutritional status of children",
+      "Encourages school attendance",
+      "Reduces classroom hunger",
+      "Covers 11.8 crore children across India"
+    ],
+    "documents": [
+      "School enrollment certificate"
+    ],
+    "apply_steps": [
+      "Enroll child in government school",
+      "Mid-day meal provided automatically",
+      "No separate application needed",
+      "Meal served daily during school hours",
+      "Menu includes rice, dal, vegetables, eggs"
+    ],
+    "apply_link": "https://pmposhan.education.gov.in",
+    "tags": ["student", "mid-day meal", "nutrition", "school", "children"]
+  },
+  {
+    "id": "mission-indradhanush",
+    "name": "Mission Indradhanush - Universal Immunization",
+    "ministry": "Ministry of Health & Family Welfare",
+    "description": "Aims to ensure full immunization of all children and pregnant women. Provides free vaccines against 12 vaccine-preventable diseases.",
+    "eligibility": {
+      "profession": ["Farmer", "Daily Wage Worker", "Self-Employed", "Salaried", "Street Vendor", "Homemaker", "Unemployed"],
+      "income_max": "Above ₹50,000 / month",
+      "categories": ["General", "OBC", "SC", "ST", "EWS"],
+      "age_min": 1,
+      "age_max": 100,
+      "conditions": ["Children up to 2 years and pregnant women", "Available to all"]
+    },
+    "benefits": [
+      "Free vaccination against 12 diseases",
+      "Vaccines for diphtheria, pertussis, tetanus, polio, measles, rubella, Japanese encephalitis, hepatitis B, pneumonia, meningitis, rotavirus diarrhea",
+      "Protects children from life-threatening diseases",
+      "Vaccination camps in villages and urban areas",
+      "Tracking through immunization cards"
+    ],
+    "documents": [
+      "Birth certificate or any age proof",
+      "Aadhaar Card if available"
+    ],
+    "apply_steps": [
+      "Visit nearest Anganwadi or Primary Health Centre",
+      "Register child or pregnant woman",
+      "Get immunization card",
+      "Attend vaccination sessions as per schedule",
+      "All vaccines completely free"
+    ],
+    "apply_link": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=824&lid=220",
+    "tags": ["immunization", "vaccination", "children", "health", "free vaccines"]
+  }
+]
